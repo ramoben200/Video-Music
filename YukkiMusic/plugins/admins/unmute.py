@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by ramoben200@Github, < https://github.com/ramoben200 >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/ramoben200/BallasMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/ramoben200/BallasMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils.database import is_muted, mute_off
-from YukkiMusic.utils.decorators import AdminRightsCheck
+from BallasMusic import app
+from BallasMusic.core.call import Ballas
+from BallasMusic.utils.database import is_muted, mute_off
+from BallasMusic.utils.decorators import AdminRightsCheck
 
 # Commands
 UNMUTE_COMMAND = get_command("UNMUTE_COMMAND")
@@ -34,7 +34,7 @@ async def unmute_admin(Client, message: Message, _, chat_id):
     if not await is_muted(chat_id):
         return await message.reply_text(_["admin_7"])
     await mute_off(chat_id)
-    await Yukki.unmute_stream(chat_id)
+    await Ballas.unmute_stream(chat_id)
     await message.reply_text(
         _["admin_8"].format(message.from_user.mention)
     )
