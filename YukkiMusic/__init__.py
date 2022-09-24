@@ -1,17 +1,17 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by ramoben200@Github, < https://github.com/ramoben200 >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/ramoben200/BallasMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/ramoben200/BallasMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
-from YukkiMusic.core.bot import YukkiBot
-from YukkiMusic.core.dir import dirr
-from YukkiMusic.core.git import git
-from YukkiMusic.core.userbot import Userbot
-from YukkiMusic.misc import dbb, heroku, sudo
+from BallasMusic.core.bot import BallasBot
+from BallasMusic.core.dir import dirr
+from BallasMusic.core.git import git
+from BallasMusic.core.userbot import Userbot
+from BallasMusic.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
