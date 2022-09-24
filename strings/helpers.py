@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by Ballasresmi@Github, < https://github.com/ramoben200 >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/ramoben200/ramoben200 > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/ramoben200/BallasMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -38,21 +38,21 @@ HELP_1 = """✅**<u>𝖡𝖺𝗌𝗂𝗍 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋:</u>**
 
 HELP_2 = """✅<u>**𝖦𝗋𝗈𝗎𝗉 :**</u>
 
-• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => @SohbetGirdap
+• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => @Ballasresmi
 
 """
 
 
 HELP_3 = """✅<u>**𝖪𝖺𝗇𝖺𝗅 :**</u>
 
-• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => @StarBotKanal
+• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => @Ballasresmi
 
 """
 
 
 HELP_4 = """✅<u>**𝖮𝗐𝗇𝖾𝗋 :**</u>
 
-• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => @Hayiboo
+• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => @BOT_RAMO
 
 """
 HELP_5 = """🔰**<u>𝖲𝗎𝖽𝗈 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋 :</u>**
