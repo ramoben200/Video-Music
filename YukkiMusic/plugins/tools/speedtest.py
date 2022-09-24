@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by ramoben200@Github, < https://github.com/ramoben200 >.
 #
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
+# This file is part of < https://github.com/ramoben200/BallasMusicBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
+# Please see < https://github.com/ramoben200/BallasMusicBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -15,8 +15,8 @@ import wget
 from pyrogram import filters
 
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
+from BallasMusic import app
+from BallasMusic.misc import SUDOERS
 
 # Commands
 SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
